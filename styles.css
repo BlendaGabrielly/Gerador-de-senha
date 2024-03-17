@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Ananda';
+    src: url('/Fontes/Ananda Personal Use.ttf') format('truetype');
+}
+h1 {
+    font-family: 'Ananda'; 
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    
+    
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.input-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color:green;
+}
+
+.password-container {
+    margin-top: 20px;
+}
+
+/* Estilo para a senha */
+.password {
+    font-family: monospace; /* Fonte monoespaçada para melhorar a legibilidade */
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    width: 100%; /* Define a largura do botão para ocupar toda a largura do contêiner */
+}
+
